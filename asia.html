@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Asian Cuisine</h1>
+  <p>The most traditional and famous foods of this continent!
+      Click on the links below to check out more interesting websites!
+  </p>
+</div>
+
+<div class="topnav">
+  <a href="https://foodfuntravel.com/15-best-foods-asia-find/">top 5 foods!</a>
+  <a href="https://www.foodnetwork.ca/global-eats/photos/popular-asian-desserts-you-need-to-try/#!Korean-dessert-dragon-beard-candy-Kkultarae">more desserts!</a>
+  <a href="https://www.saveur.com/best-asian-desserts/">dessert recipes!</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Main Course</h2>
+      <img src="ramen.jpg" style= "width:10em; height:12em;" alt="this is a bowl of ramen">
+      <img src="sushi.jpg" style= "width:12em; height:12em;" alt="this is a picture of sushi">
+      <img src="dumpling.jpg" style= "width:12em; height:12em;" alt="this is xiao long bao. they are really good.">
+      <img src="kimchi.jpg" style= "width:12em; height:12em;" alt="this is kimchi">
+      <p>These are some of the most famous foods in Asia. They come from many different countries such as Korea, Taiwan, China, and Japan.</p>
+      <p>Starting from the left, we have ramen which originated in China although it is well known in Japan. It is a combination of noodles, soup, and dumplings. The 
+          The next food is sushi which originated in Japan. It is a cobination of seafood, rice, and seaweed. IT is a fairly simple dish but is very delivious.
+          Next, we have the steamed bun which is also known as Xiao Long Bao. It origninated from Taiwan and within the skin, there is meat along with a little bit of soup to give you that extra ting!
+        Lastly, we have kimchi which originated in Korea. It is the most traditional food out of all of them. It is spricy and good for the body too. 
+          These are a few of the most traditional and popualr foods in Asia.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Dessert&Drinks </h2>
+      <img src="boba.jpg" style= "width:14em; height:12em;" alt="this is a picture of boba">
+      <img src="dragon.jpg" style= "width:12em; height:12em;" alt="this is a picture of dragon">
+      <img src="egg.jpg" style= "width:12em; height:12em;" alt="this is a picture of an egg tart">
+      <img src="tapioca.jpg" style= "width:12em; height:12em;" alt="this is a picture of tapioca">
+      <p>These are some of the tastiest and famous desserts in Asian.</p>
+      <p>Starting from the left we have boba milk tea which is one of the best drinks ever. It was originated in Taiwan. 
+        Next, we have dragon beard's candy originally from Korea. It is made up of sticky candy that has been stretched and pulled to over 3,000 strands. Inside they fil it with paunuts or whatever filling you would like.
+        Next, we have an egg tart which is basically like a fruit tart but with egg "pudding" in the middle. (Originally from China) It is definetely something you could eat on a daily basis. 
+        Last, we have tapioca pudding. Specifically, the mango coconut tapioca pudding is the original along with the most famous in the world today. It is one of my personal favorites to  this day!
+        All of these desserts are traditional but also perfect. Not too sweet and not too repetitive!
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Some info: Asia</h2>
+      <p>Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa.</p>
+    </div>
+    <div class="card">
+      <h3>Population</h3>
+    <p>4.463 billion</p>
+    </div>
+   
+  </div>
+
+
+</body>
+</html>

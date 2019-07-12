@@ -1,63 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="northamerica.jpeg" width="350" height="300">
-            </a>
-            
-    
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="europe.jpeg" width="350" height="200">
-            </a>
-            
-    
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="asia.jpeg" width="100" height="100">
-            </a>
-            
-    
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="southamerica.jpeg" width="100" height="100">
-            </a>
-            
-    
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="africa.jpeg" width="100" height="100">
-            </a>
-            
-    
-            <a href="https://www.w3schools.com">
-            <img border="0" alt="W3Schools" src="australia.jpeg" width="100" height="100">
-            </a>
-            
-    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
-    <style>
-      .map {
-        height: 400px;
-        width: 100%;
-      }
-    </style>
-    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
-    <title>OpenLayers example</title>
-  </head>
-  <body>
-
-    <h2>My Map</h2>
-    <div id="map" class="map"></div>
-    <script type="text/javascript">
-      var map = new ol.Map({
-        target: 'map',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([37.41, 8.82]),
-          zoom: 4
-        })
-      });
-    </script>
-  </body>
-</html> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                body {
+                  font-family: Arial;
+                  padding: 10px;
+                  background: #f1f1f1;
+                }
+                
+                /* Header/Blog Title */
+                .header {
+                  padding: 30px;
+                  text-align: center;
+                  background: white;
+                }
+                
+                .header h1 {
+                  font-size: 50px;
+                }
+                
+                /* Style the top navigation bar */
+                .topnav {
+                  overflow: hidden;
+                  background-color: #333;
+                }
+                
+                /* Style the topnav links */
+                .topnav a {
+                  float: left;
+                  display: block;
+                  color: #f2f2f2;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                }
+                
+                /* Change color on hover */
+                .topnav a:hover {
+                  background-color: #ddd;
+                  color: black;
+                }
+                
+                /* Create two unequal columns that floats next to each other */
+                /* Left column */
+                .leftcolumn {   
+                  float: center;
+                  width: 100%;
+                }
+                
+                /* Right column
+                .rightcolumn {
+                  float: left;
+                  width: 25%;
+                  background-color: #f1f1f1;
+                  padding-left: 20px;
+                } */
+                
+                /* Fake image */
+                .fakeimg {
+                  width: 100%;
+                  /* padding: 20px; */
+                  height: 100%;
+                  
+                  position: absolute;
+                    left: 15%;
+                    margin-left: -50px;
+                 }
+                 </style>
+                </head>
+                <body>
+                
+                <div class="header">
+                  <h1>My Website</h1>
+                  <p>Resize the browser window to see the effect.</p>
+                </div>
+                
+                <div class="topnav">
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                  <a href="#">Link</a>
+                  <a href="#" style="float:right">Link</a>
+                </div>
+                
+                <div class="row">
+                  <div class="leftcolumn">
+                    <div class="card">
+                      <h2>TITLE HEADING</h2>
+                      <h5>Title description, Dec 7, 2017</h5>
+                      <center>
+                      <div class="fakeimg">
+                            
+                            <div><a href="https://www.w3schools.com">
+                            <img border="0" alt="W3Schools" src="northamerica.jpeg"style="float: left; height: 15em; margin-right: 1.8%; margin-bottom: 0.5em;">
+                            </a></div>
+                            
+                        
+                            <div><a href="europe.html">
+                            <img border="0" alt="W3Schools" src="europe.jpeg" style="float: left; height: 10em; margin-right: 0.5%; margin-bottom: 0.5em;">
+                            </a></div>
+                            
+                        
+                            <div><a href="asia.html">
+                            <img border="0" alt="W3Schools" src="asia.jpeg" style="float:left; margin-left: 1%; height: 15.5em; margin-right: 9%; margin-bottom: 0.5em;">
+                            </a></div>
+                            
+                        
+                            <div><a href="https://www.w3schools.com">
+                            <img border="0" alt="W3Schools" src="southamerica.jpeg" style="float: left; height: 15em; margin-right: 0.5%; margin-bottom: 0.5em;">
+                            </a></div>
+                            
+                        
+                            <div><a href="https://www.w3schools.com">
+                            <img border="0" alt="W3Schools" src="africa.jpeg" style="float: left; height: 15em; margin-right: 0.5%; margin-bottom: 0.5em;">
+                            </a></div>
+                            
+                        
+                            <div><a href="https://www.w3schools.com">
+                            <img border="0" alt="W3Schools" src="australia.jpeg" style="float: left; height: 15em; margin-right: 0.5%; margin-bottom: 0.5em;">
+                            </a></div>
+                        
+                        </div>
+                    </center>
+                      
+                  </div>
+                </body>
+                </html>
+                
+                
+                
